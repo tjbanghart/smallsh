@@ -14,8 +14,8 @@ This program was made for as part of the course requirements for CS 344: Into To
 - `status` shows exit value of the last run command
 - Type `exit` to exit the shell
 - Type `&` and a command to run it in "background" mode. The user will be handed back the shell prompt (`:`) while the command runs via a forked processes.
-- CONTROL-Z will toggle "foreground-only mode" which will prevent `&` commands from running in the background.
-- CONTROL-C kills the current running process but does not exit the shell.
+- `CONTROL-Z` will toggle "foreground-only mode" which will prevent `&` commands from running in the background.
+- `CONTROL-C` kills the current running process but does not exit the shell.
 
 
 ## Test
