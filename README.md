@@ -2,7 +2,7 @@
 
 This program is a "wrapper shell" around bash. The user is prompted with `: ` and allowed to enter any common bash command. The commands `cd`, `exit`, and `status` are handled by this program. All other commands are passed to the bash shell via `execvp()` as a child process. Commands can be run in either "foreground" or "background" mode. Commands executed in the foreground cause the parent process to `wait()` until the child process terminates. Background commands cause the parent to wait(`..WNOHANG..`) so the user is open to enter another command as the child process runs.
 
-This program was made for as part of the course requirements for CS 344: Into To Operating Systems taken at Oregon State Univeristy in Fall 2020. You can read the assignment description [here](/assignment_desc.md).
+This program was made for as part of the course requirements for CS 344: Operating Systems I taken at Oregon State Univeristy in Fall 2020. You can read the assignment description [here](/assignment_desc.md).
 
 ## Setup
 - Clone repo
